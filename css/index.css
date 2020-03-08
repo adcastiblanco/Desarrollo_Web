@@ -1,3 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+/* ---------- Ediciones de header ------------- */
+#header, #hero {
+    background-color: #1b2127;;
+}
+
+.logo-img{
+    height: 70px;
+}
+
 .navbar-nav {
     flex-direction: row !important;
 }
+
+/* ---------- Final ediciones de header ------- */
+
+
