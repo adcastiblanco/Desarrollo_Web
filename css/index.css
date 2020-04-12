@@ -22,10 +22,11 @@ figure {
 /* ---------- Final ediciones de header ------- */
 
 /* ---------- Ediciones body -------------------*/
+
+/* VALIDAMOS DESPUES SU FUNCIÓN
 .experience-container img {
     height: 200px;
 }
-
 .experience {
     background-color: #f4fbff;
 }
@@ -33,7 +34,9 @@ figure {
     margin: -114px 20px 10px 20px;
     background-color: white;
     padding: 20px 20px 20px 20px;
+} */
+.row {
+    margin: 0px !important;
 }
-
 /* ----------------- Projects --------------- */
 
