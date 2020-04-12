@@ -2,6 +2,10 @@ body {
     margin: 0;
     padding: 0;
 }
+figure {
+    margin: 0;
+}
+
 /* ---------- Ediciones de header ------------- */
 #header, #hero {
     background-color: #1b2127;;
@@ -17,4 +21,19 @@ body {
 
 /* ---------- Final ediciones de header ------- */
 
+/* ---------- Ediciones body -------------------*/
+.experience-container img {
+    height: 200px;
+}
+
+.experience {
+    background-color: #f4fbff;
+}
+.experience-description {
+    margin: -114px 20px 10px 20px;
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+}
+
+/* ----------------- Projects --------------- */
 
