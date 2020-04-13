@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6, .project-details b {
 .experience-details {
     margin-top: -51px;
     position: relative;
-    text-align: center;
+    text-align: center;}
 /* VALIDAMOS DESPUES SU FUNCIÓN
 .experience-container img {
     height: 200px;
@@ -63,8 +63,29 @@ h1, h2, h3, h4, h5, h6, .project-details b {
     margin: 0px !important;
 }
 .contact-form input {
-    background-image: url('../img/envelope.svg');
+    border-color: gray;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 7px 20px 7px 25px;
+    background-image: url(../img/envelope.svg);
+    background-size: 15px 15px;
     background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+}
+.contact-form button {
+    display: block;
+    background: transparent;
+    color: white;
+    padding: 7px 0;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px;
+}
+.social-media-icons,
+.social-media-icons a:hover {
+    font-size: 50px;
+    text-decoration: none;
 }
 /* ----------------- Projects --------------- */
 
