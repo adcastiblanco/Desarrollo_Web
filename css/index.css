@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Source Sans Pro', sans-serif !important;
 }
 figure {
     margin: 0;
@@ -22,7 +23,30 @@ figure {
 /* ---------- Final ediciones de header ------- */
 
 /* ---------- Ediciones body -------------------*/
+h1, h2, h3, h4, h5, h6, .project-details b {
+    font-family: 'Fjalla One', sans-serif;
+}
 
+.project-description {
+    font-size:18px;
+}
+
+.experience-item {
+    background:#f4fbff;
+    padding: 0 !important;
+    width: 480px !important;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+.experience-item img {
+    max-width: 480px;
+    max-height: 200px;
+    object-fit: cover;
+}
+.experience-details {
+    margin-top: -51px;
+    position: relative;
+    text-align: center;
 /* VALIDAMOS DESPUES SU FUNCIÓN
 .experience-container img {
     height: 200px;
