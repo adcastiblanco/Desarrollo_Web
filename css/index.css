@@ -38,5 +38,9 @@ figure {
 .row {
     margin: 0px !important;
 }
+.contact-form input {
+    background-image: url('../img/envelope.svg');
+    background-repeat: no-repeat;
+}
 /* ----------------- Projects --------------- */
 
