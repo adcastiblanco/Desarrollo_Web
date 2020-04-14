@@ -8,10 +8,15 @@ figure {
 }
 
 /* ---------- Ediciones de header ------------- */
-#header, #hero {
-    background-color: #1b2127;;
+#header {
+    z-index: 2;
 }
-
+#header, #hero {
+    background-color: #1b2127;
+}
+#hero h1 {
+    line-height: 1.5;
+}
 .logo-img{
     height: 70px;
 }
@@ -89,3 +94,8 @@ h1, h2, h3, h4, h5, h6, .project-details b {
 }
 /* ----------------- Projects --------------- */
 
+@media (min-width: 992px) {
+.container, .container-lg, .container-md, .container-sm {
+    max-width: 1000px !important;
+}
+}
